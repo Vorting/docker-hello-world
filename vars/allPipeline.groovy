@@ -1,6 +1,6 @@
 def call() {
 
-pipeLine {
+pipeline {
     agent { label "master"}
 
     stages {
