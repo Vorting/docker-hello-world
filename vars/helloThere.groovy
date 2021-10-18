@@ -1,3 +1,4 @@
-#!/usr/bin/env python3
 
-print ('Hello there!')
+def call() {
+sh "echo Hello There! :)"
+}
