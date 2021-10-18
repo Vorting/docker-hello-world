@@ -1,3 +1,5 @@
+@Library('docker-hello') _
+
 pipeline {
     agent { label "master"}
     stages {
