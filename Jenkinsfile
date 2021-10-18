@@ -7,7 +7,7 @@ pipeline {
             steps {
                 helloThere()
                 dockerCmd 'version'
-                dockerCmd 'built -t ealebed/hellonode:latest .'
+                dockerCmd 'built -t'
                 dockerCmd 'images ls'
             }
         }
