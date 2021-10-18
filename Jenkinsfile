@@ -1,3 +1,3 @@
 @Library('docker-hello') _
 
-allPipeline ()
+allPipeline {}
