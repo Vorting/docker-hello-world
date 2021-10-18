@@ -3,11 +3,9 @@
 pipeline {
     agent { label "master"}
     stages {
-        stage ('Example') {
+        stage ('Example Build') {
             steps {
                 helloThere()
-                helloThere2()
-                helloThere3()
             }
         }
     }
