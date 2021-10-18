@@ -1,8 +1,4 @@
-def call(body) {
-    def pipeLineParams = [:]
-    body.resolveStrategy = Closure.DELEGATE_FIRST
-    body.delegate = pipeLineParams
-    body()
+def call() {
 
 pipeLine {
     agent { label "master"}
