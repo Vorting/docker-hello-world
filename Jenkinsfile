@@ -7,7 +7,6 @@ pipeline {
             steps {
                 helloThere()
                 dockerCmd 'version'
-                dockerCmd 'built -t'
                 dockerCmd 'images ls'
             }
         }
