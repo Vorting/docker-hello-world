@@ -6,7 +6,7 @@ def call() {
         stages {
             stage ('Example Build#1') {
                 steps {
-                    helloThere()
+                    helloThere1()
                 }
             }
             stage ('Example Build#2') {
