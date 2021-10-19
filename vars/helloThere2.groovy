@@ -1,4 +1,5 @@
 
 def call() {
-sh " echo Hello There!#2 "
+    def var = sh " echo Hello There!#2 "
+    var
 }
