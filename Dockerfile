@@ -5,4 +5,4 @@ WORKDIR /usr/src/app/
 
 COPY . /usr/src/app/
 
-CMD ["python", "app2.py"]
+CMD ["python", "app3Flask.py"]
